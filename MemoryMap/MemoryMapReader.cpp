@@ -1,7 +1,7 @@
 #include "MemoryMapReader.h"
 #include <windows.h>
 
-#define memfile_block_size 64*1024
+const int memfile_block_size = 64*1024;
 
 //------------------------------------------------------------------------------------
 class CMemoryMapReader::Impl
